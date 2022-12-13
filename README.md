@@ -41,6 +41,7 @@ Experiments were performed and model results were validated in the publication. 
 
 **The following figures represent the experimental data** -
 ![download (8)](https://github.com/LAA147/Project2/blob/main/download%20(8).png)
+![download (8)](https://github.com/LAA147/Project2/blob/main/download%20(9).png)
 
 **Parametric sensitivity analysis** - 
 Both global & local sensitivity analysis was performed on the model to check which parameter is more sensitive and can disturb the model when changed. Each parameter was varied by 20% for the global analysis. Where as, for the local analysis, each parameter was varied by 1%.
