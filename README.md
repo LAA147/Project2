@@ -22,10 +22,7 @@ Let:-
 - Yobs is the observed biomass yield ($gssv/mM of glucose$) and is calcualted using $Yobs = Yxmax(1-m)$
 - m is fraction of substrate consumed for maintenance
 
-\begin{align}
-\dot{x} = \mu \frac{s(t)}{ks+s(t)} \frac{1}{1+1.2^{(CHA - kbio)}} x(t) - b x(t)\\
-\dot{s} = \frac{-1}{Yobs} \frac{s(t)}{ks+s(t)} \frac{1}{1+1.2^{(CHA - ksub)}} x(t)\\
-\end{align}
+![equation](https://latex.codecogs.com/svg.image?\begin{align}\dot{x}&space;=&space;\mu&space;\frac{s(t)}{ks&plus;s(t)}&space;\frac{1}{1&plus;1.2^{(CHA&space;-&space;kbio)}}&space;x(t)&space;-&space;b&space;x(t)\\\dot{s}&space;=&space;\frac{-1}{Yobs}&space;\frac{s(t)}{ks&plus;s(t)}&space;\frac{1}{1&plus;1.2^{(CHA&space;-&space;ksub)}}&space;x(t)\end{align})
 
 However, there are several **unknown parameters that we need to estimate**:
 
