@@ -40,6 +40,7 @@ However, there are several **unknown parameters that we need to estimate**:
 Experiments were performed and model results were validated in the publication. In this study, experimental data was extracted from the article and fit into the ODE model. Next, parametric sensitivity was performed globally and locally to determine which parameter is more senitive compared to the others. Finally, bifurcation analysis was performed for the chosen variable and parameter.
 
 **The following figures represent the experimental data** -
+![download (8)](https://github.com/LAA147/Project2/blob/main/download%20(8).png)
 
 **Parametric sensitivity analysis** - 
 Both global & local sensitivity analysis was performed on the model to check which parameter is more sensitive and can disturb the model when changed. Each parameter was varied by 20% for the global analysis. Where as, for the local analysis, each parameter was varied by 1%.
