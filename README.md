@@ -3,6 +3,10 @@
 **Introduction**
 Acidogenic fermentation is a technology that is used to produce hydrogen and volatile fatty acids in an environmental friendly way. In an acidogenic fermentation carried out by a mixed culture,the microorganisms produce a spectrum of metabolic products. Consequently, the hydrogen yields achieved are lower than the maximum theoretical hydrogen yield (4 mol H2/mol glucose) when acetic acid is the end-product. However, mixed culture also has some advantages because no sterilization is required. Major assumption associated with this study is that the culture is well mixed. 
 
+**Research article chosen**
+"Kinetic model and study of the influence of pH, temperature and undissociated acids on acidogenic fermentation" was chosen for the course project.
+Citation - Infantes, D., del Campo, A. G., Villaseñor, J., & Fernández, F. J. (2012). Kinetic model and study of the influence of pH, temperature and undissociated acids on acidogenic fermentation. Biochemical engineering journal, 66, 66-72.
+
 **Kinetic model and parameters**
 The following equations and info is used to describe the monod-type kinetics of acidogenic fermentation:
 
