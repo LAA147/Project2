@@ -22,7 +22,13 @@ Let:-
 - Yobs is the observed biomass yield $gssv/mM of glucose$ and is calcualted using $Yobs = Yxmax(1-m)$
 - m is fraction of substrate consumed for maintenance
 
-![equation](https://latex.codecogs.com/svg.image?\begin{align}\frac{dx}{dt}&space;=&space;\mu&space;\frac{s(t)}{ks&plus;s(t)}&space;\frac{1}{1&plus;1.2^{(CHA&space;-&space;kbio)}}&space;x(t)&space;-&space;b&space;x(t)\\\frac{ds}{dt}&space;=&space;\frac{-1}{Yobs}&space;\frac{s(t)}{ks&plus;s(t)}&space;\frac{1}{1&plus;1.2^{(CHA&space;-&space;ksub)}}&space;x(t)\end{align})
+\begin{align}
+
+\dot{x} = \mu \frac{s(t)}{ks+s(t)} \frac{1}{1+1.2^{(CHA - kbio)}} x(t) - b x(t)\
+
+\dot{s} = \frac{-1}{Yobs} \frac{s(t)}{ks+s(t)} \frac{1}{1+1.2^{(CHA - ksub)}} x(t)
+
+\end{align}
 
 However, there are several **unknown parameters that we need to estimate**:
 
@@ -51,9 +57,13 @@ Experiments were performed and model results were validated in the publication. 
 **Parametric sensitivity analysis** - 
 Both global & local sensitivity analysis was performed on the model to check which parameter is more sensitive and can disturb the model when changed. Each parameter was varied by 20% for the global analysis. Where as, for the local analysis, each parameter was varied by 1%.
 
-Global sensitivity results- ![download (12)](https://github.com/LAA147/Project2/blob/main/download%20(12).png)
+Global sensitivity results- 
 
-Local sensitivity results- ![download (13)](https://github.com/LAA147/Project2/blob/main/download%20(13).png)
+![download (12)](https://github.com/LAA147/Project2/blob/main/download%20(12).png)
+
+Local sensitivity results- 
+
+![download (13)](https://github.com/LAA147/Project2/blob/main/download%20(13).png)
 
 From the statistical analysis, it can be predicted that 'b' parameter (represents decay coefficient) is the most sensitive parameter. This paramter is further used to perform the bifurcation analysis.
 
