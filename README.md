@@ -1,4 +1,4 @@
-# Kinetic modeling of acedogenic fermentation in a batch reactor
+# Kinetic modeling of acidogenic fermentation in a batch reactor
 
 **Introduction** -
 Acidogenic fermentation is a technology that is used to produce hydrogen and volatile fatty acids in an environmental friendly way. In an acidogenic fermentation carried out by a mixed culture,the microorganisms produce a spectrum of metabolic products. Consequently, the hydrogen yields achieved are lower than the maximum theoretical hydrogen yield (4 mol H2/mol glucose) when acetic acid is the end-product. However, mixed culture also has some advantages because no sterilization is required. Major assumption associated with this study is that the culture is well mixed. 
