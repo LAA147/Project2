@@ -71,8 +71,9 @@ Bifurcation analysis was performed on the substrate concentration variable to pl
 ![download (14)](https://github.com/LAA147/Project2/blob/main/download%20(14).png)
 
 **Conclusions** - 
-Both my null hypothesis should be rejected because of the obtained p-value. From the linear regression analysis, a positive dependence of births data is observed, a negative dependence of income data is observed and a positive dependence of their interaction is noted.
-
+Bifurcation analysis clearly shows different behaviors of the ODE by varying the sensitive parameter, b (decay coefficient). Local sensitivity analysis can be improved for the observed sensitive parameters.
 
 **Next steps** - 
-For a better analysis/fit, a non-linear model can be used. Also, more data points can be incorporated to analyze the above mentioned parameters. For example, data from 2021, 2022 years can be collected and analyzed accordingly.
+First ODE (dx/dt) can be further modified to obtain a better fit. Also, more experimental data can be collected over the span of 25 hours to increase the accuracy of the fitting model.
+
+
