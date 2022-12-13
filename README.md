@@ -41,4 +41,18 @@ Experiments were performed and model results were validated in the publication. 
 
 **The following figures represent the experimental data** -
 
+**Parametric sensitivity analysis** - 
+Both global & local sensitivity analysis was performed on the model to check which parameter is more sensitive and can disturb the model when changed. Each parameter was varied by 20% for the global analysis. Where as, for the local analysis, each parameter was varied by 1%.
+Global sensitivity results- 
+Local sensitivity results-
+From the statistical analysis, it can be predicted that 'b' parameter (represents decay coefficient) is the most sensitive parameter. This paramter is further used to perform the bifurcation analysis.
 
+**Bifurcation analysis** -
+Bifurcation analysis was performed on the substrate concentration variable to plot ds/dt vs s by varying the most sensitive parameter "b". The results are as follows:
+
+**Conclusions** - 
+Both my null hypothesis should be rejected because of the obtained p-value. From the linear regression analysis, a positive dependence of births data is observed, a negative dependence of income data is observed and a positive dependence of their interaction is noted.
+
+
+**Next steps** - 
+For a better analysis/fit, a non-linear model can be used. Also, more data points can be incorporated to analyze the above mentioned parameters. For example, data from 2021, 2022 years can be collected and analyzed accordingly.
