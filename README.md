@@ -11,8 +11,8 @@ Citation - Infantes, D., del Campo, A. G., Villaseñor, J., & Fernández, F. J. 
 The following equations and info is used to describe the monod-type kinetics of acidogenic fermentation:
 
 Let:-
-- x(t) is the concentration of biomass in the reactor ($gSSV/l$). 
-- s(t) is the substrate concentration ($mM$) and $s_0$ be the concentration of substrate in the feed line, is equal to 50 mM.
+- x(t) is the concentration of biomass in the reactor $gSSV/l$
+- s(t) is the substrate concentration ($mM$) and $s_0$ be the concentration of substrate in the feed line, is equal to 50 mM
 - mu is the specific growth rate parameter $h^{-1}$.
 - ks is the substrate half saturation constant $mM$.
 - b is the decay coefficient ($h^{-1}$)
@@ -24,7 +24,7 @@ Let:-
 
 \begin{align}
 \dot{x} = \mu \frac{s(t)}{ks+s(t)} \frac{1}{1+1.2^{(CHA - kbio)}} x(t) - b x(t)\\
-\dot{s} = \frac{-1}{Yobs} \frac{s(t)}{ks+s(t)} \frac{1}{1+1.2^{(CHA - ksub)}} x(t)
+\dot{s} = \frac{-1}{Yobs} \frac{s(t)}{ks+s(t)} \frac{1}{1+1.2^{(CHA - ksub)}} x(t)\\
 \end{align}
 
 However, there are several **unknown parameters that we need to estimate**:
