@@ -23,9 +23,12 @@ Let:-
 - m is fraction of substrate consumed for maintenance
 
 
-![equation](https://latex.codecogs.com/svg.image?\begin{align}\dot{x}&space;=&space;\mu&space;\frac{s(t)}{ks&plus;s(t)}&space;\frac{1}{1&plus;1.2^{(CHA&space;-&space;kbio)}}&space;x(t)&space;-&space;b&space;x(t)\\\dot{s}&space;=&space;\frac{-1}{Yobs}&space;\frac{s(t)}{ks&plus;s(t)}&space;\frac{1}{1&plus;1.2^{(CHA&space;-&space;ksub)}}&space;x(t)\end{align})
+![equation](https://latex.codecogs.com/svg.image?\begin{align}\dot{x}&space;=&space;\mu&space;\frac{s(t)}{ks&plus;s(t)}&space;\frac{1}{1&plus;1.2^{(CHA&space;-&space;kbio)}}&space;x(t)&space;-&space;b&space;x(t)\end{align}&space;)
 
-However, there are several **unknown parameters that we need to estimate**:
+![equation](https://latex.codecogs.com/svg.image?\begin{align}\dot{s}&space;=&space;\frac{-1}{Yobs}&space;\frac{s(t)}{ks&plus;s(t)}&space;\frac{1}{1&plus;1.2^{(CHA&space;-&space;ksub)}}&space;x(t)\end{align}&space;)
+
+
+However, there are several **unknown parameters that needs to be estimated**:
 
 - mu is the specific growth rate parameter $h^{-1}$
 - ks is the substrate half saturation constant $mM$.
