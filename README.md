@@ -1,5 +1,39 @@
 # Kinetic modeling of acedogenic fermentation in a batch reactor
 
-Acidogenic fermentation is a technology that is used to produce hydrogen and volatile fatty acids in friendly environmental way. The acidogenic fermentation is the initial phase of the anaerobic digestion of organic compounds to methane and carbon dioxide (i.e., biogas): soluble organic compounds are fermented into organic acids, such as acetic, propionic, butyric, and lactic acid, and other fermentation products, such as alcohols and hydrogen.
+**Introduction**
+Acidogenic fermentation is a technology that is used to produce hydrogen and volatile fatty acids in an environmental friendly way. In an acidogenic fermentation carried out by a mixed culture,the microorganisms produce a spectrum of metabolic products. Consequently, the hydrogen yields achieved are lower than the maximum theoretical hydrogen yield (4 mol H2/mol glucose) when acetic acid is the end-product. However, mixed culture also has some advantages because no sterilization is required. Major assumption associated with this study is that the culture is well mixed. 
 
-In the research article, "Kinetic model and study of the influence of pH, temperature and undissociated acids on acidogenic fermentation", the experimental results were validated with the predicted kinetic model results by varying the pH and temperature. 
+**Kinetic model and parameters**
+The following equations and info is used to describe the monod-type kinetics of acidogenic fermentation:
+
+Let: 
+- x(t) is the concentration of biomass in the reactor ($gSSV/l$). 
+- s(t) is the substrate concentration ($mM$) and $s_0$ be the concentration of substrate in the feed line, is equal to 50 mM.
+- mu is the specific growth rate parameter $h^{-1}$.
+- ks is the substrate half saturation constant $mM$.
+- b is the decay coefficient ($h^{-1}$)
+- kbio is the undissociated acids threshold concentration ($mM$) which caused an important shift on biomass growth 
+- ksub is the undissociated acids threshold concentration ($mM$) which caused an important shift on substrate fermentation
+- CHA is the total concentration of undossociated acids ($mM$)
+- Yobs is the observed biomass yield ($gssv/mM of glucose$) and is calcualted using $Yobs = Yxmax(1-m)$
+- m is fraction of substrate consumed for maintenance
+
+\begin{align}
+\dot{x} = \mu \frac{s(t)}{ks+s(t)} \frac{1}{1+1.2^{(CHA - kbio)}} x(t) - b x(t)\\
+\dot{s} = \frac{-1}{Yobs} \frac{s(t)}{ks+s(t)} \frac{1}{1+1.2^{(CHA - ksub)}} x(t)
+\end{align}
+
+However, there are several **unknown parameters that we need to estimate**:
+
+- mu is the specific growth rate parameter $h^{-1}$
+- ks is the substrate half saturation constant $mM$.
+- b is the decay coefficient ($h^{-1}$)
+- kbio is the undissociated acids threshold concentration ($mM$) which caused an important shift on biomass growth 
+- ksub is the undissociated acids threshold concentration ($mM$) which caused an important shift on substrate fermentation
+- m is fraction of substrate consumed for maintenance
+
+**Methodology**
+Experiments were performed and model results were validated in the publication. In this study, experimental data was extracted from the article and fit into the ODE model. Next, parametric sensitivity was performed globally and locally to determine which parameter is more senitive compared to the others. Finally, bifurcation analysis was performed for the chosen variable and parameter.
+
+**The following figures represent the experimental data**
+
